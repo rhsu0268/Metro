@@ -1,0 +1,249 @@
+<!-- index.html -->
+<!-- This is the file that displays the user interface -->
+
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <!--<link rel="stylesheet" type="text/css" href="stylesgeo.css"/>-->
+    <script type="text/javascript">
+        var locations = [];
+        var map = "";
+        var markers = [];
+        var polylineCoordinates = [];
+
+        // variables for Metro API call
+        var html1 = "";
+        var polylinePath;
+
+        // this function initalizes the googlemap
+        function initialize() {
+        
+            var mapOptions = {
+            center: new google.maps.LatLng(38.9053602,-77.0573102),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+        
+            // inserts the google map in the div
+            map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);    
+            
+            //getLine();
+           
+        }
+        
+        // this function adds the markers
+        function addMarkers() 
+        {
+            for (var i = 0; i < locations.length; i++) {  
+                var marker = new google.maps.Marker({
+                
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map
+                
+                });
+                
+                
+                var infowindow = new google.maps.InfoWindow({
+                    content: "Loading...",
+                    //maxWidth: 500,
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2])
+                });
+                
+                google.maps.event.addListener(marker, 'click', (function(marker, infowindow, i) 
+                {
+                    return function() 
+                    {
+                    
+                        var code = locations[i][3];
+                        var line = locations[i][4];
+                        var to1 = locations[i][5];
+                    
+                        infowindow.open(map, this);
+                        getTimes(code, line, to1, function(result)
+                        {
+                            html1 = "";
+                            html1 += result;
+                            console.log(result);
+                            /*
+                            for (var j = 0; j < result.length; j++)
+                            {
+                                html1 += result[j] + "<br>";
+                            }
+                            */
+                            infowindow.setContent("<div style='width:200px'>" + "<b>" + locations[i][0] +"</b>" + "<br>" + html1 + "</div>");
+                        });
+                    
+                    
+                    }
+                }) (marker, infowindow, i));
+               
+                markers.push(marker);
+            
+            }
+            
+        }
+        
+        // this function gets the arrival times when given the station, color, destination, and a allback function
+        function getTimes(code, line, to1, callback)
+        {
+            // declare some variables
+            var text1 = "";
+            var destinations = [];
+            var stationTimes = [];
+            var colors = [];
+            
+            var params = {
+            // Specify your subscription key
+            'api_key': 'kfgpmgvfgacx98de9q3xazww',
+            };
+            
+            //var code = "B01";
+         
+            $.ajax({
+                //url: 'https://api.wmata.com/StationPrediction.svc/json/GetPrediction/B01, F01?' + $.param(params),
+                
+                url: 'https://api.wmata.com/StationPrediction.svc/json/GetPrediction/' + code + '?' + $.param(params),
+                type: 'GET',
+            })
+            .done(function(data) {
+                //alert("success");
+                console.log(data);
+                var result = data.Trains;
+                for (var i = 0; i < result.length; i++)
+                {
+                    //console.log(result[i].Min + "<br>");
+                    //console.log(result[i].DestinationName);
+                    var temp = [result[i].Line, result[i].DestinationName, result[i].Min];
+                    stationTimes.push(temp);
+                    //console.log(temp);
+                }
+                console.log(stationTimes);
+                
+                for (var j = 0; j < stationTimes.length; j++)
+                {
+                    console.log(line);
+                    //console.log(stationTimes[j][0]);
+                    if (stationTimes[j][0] == line)
+                    {
+                        if (stationTimes[j][2] == "BRD")
+                        {
+                            text1 += stationTimes[j][1] + ": " + "Boarding";
+                            text1 += "<br>";
+                        }
+                        else if (stationTimes[j][2] == "ARR")
+                        {
+                            text1 += stationTimes[j][1] + ": " + "Arriving";
+                            text1 += "<br>";
+                        }
+                        else 
+                        {
+                            text1 += stationTimes[j][1] + ": " + stationTimes[j][2] + " minutes";
+                            text1 += "<br>";
+                        }
+                    }
+                   
+                }
+                
+                callback(text1);
+                
+                
+            })
+            .fail(function() {
+                alert("error");
+        });
+        }
+
+
+        // this function adds a polyline to connect the stations together
+        function addPolyline(val) {
+        
+            polylinePath = new google.maps.Polyline({
+            path: polylineCoordinates,
+            strokeColor: val,
+            strokeOpacity: 1.0,
+            strokeWeight: 4
+        }); 
+        
+            polylinePath.setMap(map);
+        }
+        
+
+        // this function fills the locations array given the color and its hex value
+        function getLine(color, hex)
+        {
+            $(document).ready(function() {
+                //var stations = $('#stations');
+                $.ajax({
+                    type: 'GET',
+                    url: color + ".json",
+                    success: function(stations) {
+                    
+                        //console.log(stations);
+                        for (var i = 0; i < stations.length; i++)
+                        {
+                            //console.log(stations[i]);
+                            var result = [stations[i].station, parseFloat(stations[i].latitude), parseFloat(stations[i].longitude), stations[i].code, stations[i].color, stations[i].to1, stations[i].to2]
+                            //console.log(result);
+                            locations.push(result);
+                            
+                            var coordinates = new google.maps.LatLng(parseFloat(stations[i].latitude), parseFloat(stations[i].longitude));
+                            polylineCoordinates.push(coordinates);
+                            console.log(locations[i]); 
+                            
+                       
+                        }
+                        
+                        
+                        addMarkers();
+                        addPolyline(hex);
+                }
+            });
+            });
+        }
+        
+        // this function clears the line from the map so a different one can be displayed
+        function clearOverlays() {
+        
+            if (markers.length == 0)
+            {
+                return;
+            }
+            for (var i = 0; i < markers.length; i++)
+            {
+                markers[i].setMap(null);
+            }
+            markers.length = 0;
+            polylineCoordinates.length = 0;
+            locations.length = 0;
+            polylinePath.setMap(null);
+            //$("#red").bind('click');
+         
+        }
+       
+       
+        
+        
+       
+    </script>
+       
+    
+    </head>
+    <h1>Welcome to the Metro!</h1>
+    <body onload="initialize();">
+
+    <div id="map-canvas" style="width:60%; height:80%"></div>
+    
+    <br><br>
+    <div id="buttons">
+        <div class="inner"><input class="red" onclick="clearOverlays(); getLine('red', '#FF0000');" type=button value="Red"></div>
+        <div class="inner"><input class="blue" onclick="clearOverlays(); getLine('blue', '#0000FF');" type=button value="Blue"></div>
+        <div class="inner"><input class="orange" onclick="clearOverlays(); getLine('orange', '#ff9933');" type=button value="Orange"></div>
+        <div class="inner"><input class="silver" onclick="clearOverlays(); getLine('silver', '#CCCCCC');" type=button value="Silver"></div>
+        <div class="inner"><input class="green" onclick="clearOverlays(); getLine('green', '#00FF00');" type=button value="Green"></div>
+        <div class="inner"><input class="yellow" onclick="clearOverlays(); getLine('yellow', '#FFFF00');" type=button value="Yellow"></div>
+    </div>
+    </body>
+</html>

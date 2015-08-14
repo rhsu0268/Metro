@@ -1,0 +1,262 @@
+[
+    {
+        "id": 1,
+        "station": "Vienna",
+        "latitude": "38.8779",
+        "longitude": "-77.2714",
+        "code": "K08",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "-"
+    },
+    {
+        "id": 2,
+        "station": "Duunn Loring",
+        "latitude": "38.8832",
+        "longitude": "-77.2286",
+        "code": "K07",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 3,
+        "station": "West Falls Church",
+        "latitude": "38.9007",
+        "longitude": "-77.1889",
+        "code": "K06",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 4,
+        "station": "East Falls Church ",
+        "latitude": "38.8860",
+        "longitude": "-77.1566",
+        "code": "K05",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 5,
+        "station": "Ballston-MU",
+        "latitude": "38.8820",
+        "longitude": "-77.1116",
+        "code": "K04",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 6,
+        "station": "Virginia Sq-GMU",
+        "latitude": "38.8831",
+        "longitude": "-77.1038",
+        "code": "K03",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 7,
+        "station": "Clarendon ",
+        "latitude": "38.8871",
+        "longitude": "-77.0952",
+        "code": "K02",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 8,
+        "station": "Court House",
+        "latitude": "38.8913",
+        "longitude": "-77.0848",
+        "code": "K01",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 9,
+        "station": "Rosslyn ",
+        "latitude": "38.8955",
+        "longitude": "-77.0720",
+        "code": "C05",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 10,
+        "station": "Foggy Bottom-GWU",
+        "latitude": "38.9007",
+        "longitude": "-77.0500",
+        "code": "C04",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 11,
+        "station": "Farragut West",
+        "latitude": "38.9014",
+        "longitude": "-77.0395",
+        "code": "C03",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 12,
+        "station": "McPherson Sq",
+        "latitude": "38.9013",
+        "longitude": "-77.0320",
+        "code": "C02",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 13,
+        "station": "Metro Center",
+        "latitude": "38.8983",
+        "longitude": "-77.0278",
+        "code": "A01, C01",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 14,
+        "station": "Federal Triangle",
+        "latitude": "38.8938",
+        "longitude": "-77.0279",
+        "code": "D01",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 15,
+        "station": "Smithsonian ",
+        "latitude": "38.8876",
+        "longitude": "-77.0282",
+        "code": "D02",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 16,
+        "station": "L 'Enfant Plaza",
+        "latitude": "38.8848",
+        "longitude": "-77.0220",
+        "code": "F03, D03",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 17,
+        "station": "Federal Center SW",
+        "latitude": "38.8850",
+        "longitude": "-77.0155",
+        "code": "D04",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 18,
+        "station": "Capital South",
+        "latitude": "38.8856",
+        "longitude": "-77.0061",
+        "code": "D05",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 19,
+        "station": "Eastern Market",
+        "latitude": "38.8841",
+        "longitude": "-76.9950",
+        "code": "D06",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 20,
+        "station": "Potamac Ave",
+        "latitude": "38.880844",
+        "longitude": "-76.98545",
+        "code": "D07",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 21,
+        "station": "Stadium-Armory",
+        "latitude": "38.8860",
+        "longitude": "-76.9772",
+        "code": "D08",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 22,
+        "station": "Minnesota Ave",
+        "latitude": "38.8983",
+        "longitude": "-76.9477",
+        "code": "D09",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 23,
+        "station": "Deanwood",
+        "latitude": "38.9079",
+        "longitude": "-76.9356",
+        "code": "D10",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 24,
+        "station": "Cheverly",
+        "latitude": "38.9166",
+        "longitude": "-76.9151",
+        "code": "D11",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 25,
+        "station": "Landover",
+        "latitude": "38.9340",
+        "longitude": "-76.8900",
+        "code": "D12",
+        "color": "OR",
+        "to1": "New Carrolton ",
+        "to2": "Vienna"
+    },
+    {
+        "id": 26,
+        "station": "New Carrollton",
+        "latitude": "38.9469",
+        "longitude": "-76.8704",
+        "code": "D13",
+        "color": "OR",
+        "to1": "Vienna",
+        "to2": "-"
+    }
+]

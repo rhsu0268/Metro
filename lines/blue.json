@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "station": "Franconia-Springfield",
+        "latitude": "38.7663",
+        "longitude": "-77.1684",
+        "code": "J03",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "-"
+    },
+    {
+        "id": 2,
+        "station": "Van Dorn St. ",
+        "latitude": "38.8000",
+        "longitude": "-77.1287",
+        "code": "J02",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 3,
+        "station": "King St.-Old Town",
+        "latitude": "38.8065",
+        "longitude": "-77.0608",
+        "code": "C13",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 4,
+        "station": "Braddock Road",
+        "latitude": "38.813800",
+        "longitude": "-77.053723",
+        "code": "C12",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 5,
+        "station": "Ronald Reagan Washington National Airport",
+        "latitude": "38.8530",
+        "longitude": "-77.0435",
+        "code": "C10",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 6,
+        "station": "Crystal City",
+        "latitude": "38.8580",
+        "longitude": "-77.0514",
+        "code": "C09",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 7,
+        "station": "Pentagon City",
+        "latitude": "38.8630",
+        "longitude": "-77.0591",
+        "code": "C08",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 8,
+        "station": "Pentagon ",
+        "latitude": "38.8695",
+        "longitude": "-77.0538",
+        "code": "C07",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 9,
+        "station": "Arlington Cemetery",
+        "latitude": "38.8846",
+        "longitude": "-77.0628",
+        "code": "C06",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 10,
+        "station": "Rosslyn",
+        "latitude": "38.8955",
+        "longitude": "-77.0720",
+        "code": "C05",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 11,
+        "station": "Foggy Bottom-GWU",
+        "latitude": "38.9007",
+        "longitude": "-77.0500",
+        "code": "C04",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 12,
+        "station": "Farragut West",
+        "latitude": "38.9014",
+        "longitude": "-77.0395",
+        "code": "C03",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 13,
+        "station": "McPherson Sq",
+        "latitude": "38.9013",
+        "longitude": "-77.0320",
+        "code": "C02",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 14,
+        "station": "Metro Center",
+        "latitude": "38.8986",
+        "longitude": "-77.0279",
+        "code": "A01, C01",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 15,
+        "station": "Federal Triangle",
+        "latitude": "38.8938",
+        "longitude": "-77.0279",
+        "code": "D01",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 16,
+        "station": "Smithsonian ",
+        "latitude": "38.8876",
+        "longitude": "-77.0282",
+        "code": "D02",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 17,
+        "station": "L'Enfant Plaza",
+        "latitude": "38.8849",
+        "longitude": "-77.0216",
+        "code": "D03",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 18,
+        "station": "Federal Center SW",
+        "latitude": "38.8850",
+        "longitude": "-77.0155",
+        "code": "D04",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 19,
+        "station": "Capitol South ",
+        "latitude": "38.8856",
+        "longitude": "-77.0061",
+        "code": "D05",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 20,
+        "station": "Eastern Market",
+        "latitude": "38.884269",
+        "longitude": "-76.995026",
+        "code": "D06",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 21,
+        "station": "Potomac Ave",
+        "latitude": "38.8809",
+        "longitude": "-76.9854",
+        "code": "D07",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 22,
+        "station": "Stadium-Armory",
+        "latitude": "38.8860",
+        "longitude": "-76.9772",
+        "code": "D08",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 23,
+        "station": "Benning Road",
+        "latitude": "38.8904",
+        "longitude": "-76.9377",
+        "code": "G01",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 24,
+        "station": "Capital-Heights",
+        "latitude": "38.8896",
+        "longitude": "-76.9133",
+        "code": "G02",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 25,
+        "station": "Addison Road",
+        "latitude": "38.8867",
+        "longitude": "-76.8933",
+        "code": "G03",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 26,
+        "station": "Morgan Blvd",
+        "latitude": "38.8936",
+        "longitude": "-76.8685",
+        "code": "G04",
+        "color": "BL",
+        "to1": "Largo Town Center",
+        "to2": "Fraconia-Springfield"
+    },
+    {
+        "id": 27,
+        "station": "Largo Town Center",
+        "latitude": "38.9003",
+        "longitude": "-76.8445",
+        "code": "G05",
+        "color": "BL",
+        "to1": "Fraconia-Springfield",
+        "to2": "-"
+    }
+]

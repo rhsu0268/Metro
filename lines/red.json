@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "station": "Shady Grove",
+        "latitude": "39.1200",
+        "longitude": "-77.1648",
+        "code": "A15",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "-"
+    },
+    {
+        "id": 2,
+        "station": "Rockville",
+        "latitude": "39.0855",
+        "longitude": "-77.1467",
+        "code": "A14",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 3,
+        "station": "Twinbrook",
+        "latitude": "39.0624",
+        "longitude": "-77.1208",
+        "code": "A13",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 4,
+        "station": "White Flint",
+        "latitude": "39.0472",
+        "longitude": "-77.1128",
+        "code": "A12",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 5,
+        "station": "Grosvenor-Strathmore",
+        "latitude": "39.0292",
+        "longitude": "-77.1038",
+        "code": "A11",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 6,
+        "station": "Medical Center",
+        "latitude": "39.000062",
+        "longitude": "-77.096948",
+        "code": "A10",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 7,
+        "station": "Bethesda",
+        "latitude": "38.9844",
+        "longitude": "-77.0942",
+        "code": "A09",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 8,
+        "station": "Friendship Heights",
+        "latitude": "38.9610",
+        "longitude": "-77.0858",
+        "code": "A08",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 9,
+        "station": "Tenleytown-AU",
+        "latitude": "38.9478",
+        "longitude": "-77.0793",
+        "code": "A07",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 10,
+        "station": "Van Ness-UDC",
+        "latitude": "38.9446",
+        "longitude": "-77.0637",
+        "code": "A06",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 11,
+        "station": "Cleveland Park",
+        "latitude": "38.9359",
+        "longitude": "-77.0586",
+        "code": "A05",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 12,
+        "station": "Woodley Park",
+        "latitude": "38.9250",
+        "longitude": "-77.0523",
+        "code": "A04",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 13,
+        "station": "Dupont Circle",
+        "latitude": "38.9111",
+        "longitude": "-77.0444",
+        "code": "A03",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 14,
+        "station": "Farragut North",
+        "latitude": "38.9033",
+        "longitude": "-77.0395",
+        "code": "A02",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 15,
+        "station": "Metro Center",
+        "latitude": "38.8983",
+        "longitude": "-77.0278",
+        "code": "A01",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 16,
+        "station": "Gallery Place",
+        "latitude": "38.8984",
+        "longitude": "-77.0215",
+        "code": "B01, F01",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 17,
+        "station": "Judiciary Square",
+        "latitude": "38.8970",
+        "longitude": "-77.0176",
+        "code": "B02",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 18,
+        "station": "Union Station ",
+        "latitude": "38.8978",
+        "longitude": "-77.0064",
+        "code": "B03",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 19,
+        "station": "NoMa-Gallaudet U",
+        "latitude": "38.9074",
+        "longitude": "-77.0030",
+        "code": "B35",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 20,
+        "station": "Rhode Island Ave",
+        "latitude": "38.9208",
+        "longitude": "-76.9957",
+        "code": "B04",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 21,
+        "station": "Brookland-CUA",
+        "latitude": "38.9332",
+        "longitude": "-76.9945",
+        "code": "B05",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 22,
+        "station": "Fort Totten",
+        "latitude": "38.9518",
+        "longitude": "-77.0019",
+        "code": "B06, E06",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 23,
+        "station": "Takoma",
+        "latitude": "38.9754",
+        "longitude": "-77.0174",
+        "code": "B07",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 24,
+        "station": "Silver Spring",
+        "latitude": "38.9754",
+        "longitude": "-77.0174",
+        "code": "B08",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 25,
+        "station": "Forest Glen",
+        "latitude": "39.0155",
+        "longitude": "-77.0427",
+        "code": "B09",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 26,
+        "station": "Wheaton ",
+        "latitude": "39.0386",
+        "longitude": "-77.0508",
+        "code": "B10",
+        "color": "RD",
+        "to1": "Glenmont",
+        "to2": "Shady Grove"
+    },
+    {
+        "id": 27,
+        "station": "Glenmont",
+        "latitude": "39.0617",
+        "longitude": "-77.0531",
+        "code": "B11",
+        "color": "RD",
+        "to1": "Shady Grove",
+        "to2": "-"
+    }
+]

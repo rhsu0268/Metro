@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "station": "Greenbelt",
+        "latitude": "39.0111",
+        "longitude": "-76.9110",
+        "code": "E10",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "-"
+    },
+    {
+        "id": 2,
+        "station": "College Park-U of Md",
+        "latitude": "38.9784",
+        "longitude": "-76.9282",
+        "code": "E09",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 3,
+        "station": "Prince George's Plaza",
+        "latitude": "38.9653",
+        "longitude": "-76.9560",
+        "code": "E08",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 4,
+        "station": "West Hyattsville",
+        "latitude": "38.9550",
+        "longitude": "-76.9695",
+        "code": "E07",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 5,
+        "station": "Fort Totten",
+        "latitude": "38.9518",
+        "longitude": "-77.0019",
+        "code": "B06, E06",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 6,
+        "station": "Georgia Ave-Petworth",
+        "latitude": "38.9363",
+        "longitude": "-77.0243",
+        "code": "E05",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 7,
+        "station": "Columbia Heights",
+        "latitude": "38.9287",
+        "longitude": "-77.0325",
+        "code": "E04",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 8,
+        "station": "U St",
+        "latitude": "38.9170",
+        "longitude": "-77.0292",
+        "code": "E03",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 9,
+        "station": "Shaw-Howard U",
+        "latitude": "38.9145",
+        "longitude": "-77.0219",
+        "code": "E02",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 10,
+        "station": "Mt Vernon Sq",
+        "latitude": "38.9056",
+        "longitude": "-77.0219",
+        "code": "E01",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 11,
+        "station": "Gallery Place",
+        "latitude": "38.8984",
+        "longitude": "-77.0215",
+        "code": "B01, F01",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 12,
+        "station": "Archives",
+        "latitude": "38.8939",
+        "longitude": "-77.0216",
+        "code": "F02",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 13,
+        "station": "L'Enfant Plaza",
+        "latitude": "38.8849",
+        "longitude": "-77.0216",
+        "code": "F03, D03",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 14,
+        "station": "Waterfront",
+        "latitude": "38.8765",
+        "longitude": "-77.0172",
+        "code": "F04",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 15,
+        "station": "Navy Yard-Ballpark",
+        "latitude": "38.8765",
+        "longitude": "-77.0047",
+        "code": "F05",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 16,
+        "station": "Anacostia",
+        "latitude": "38.8621",
+        "longitude": "-76.9953",
+        "code": "F06",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 17,
+        "station": "Congress Heights",
+        "latitude": "38.8454",
+        "longitude": "-76.9879",
+        "code": "F07",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 18,
+        "station": "Southern Ave",
+        "latitude": "38.8410",
+        "longitude": "-76.9750",
+        "code": "F08",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 19,
+        "station": "Naylor Road",
+        "latitude": "38.8512",
+        "longitude": "-76.9563",
+        "code": "F09",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 20,
+        "station": "Suitland",
+        "latitude": "38.8438",
+        "longitude": "-76.9316",
+        "code": "F10",
+        "color": "GR",
+        "to1": "Branch Ave",
+        "to2": "Greenbelt"
+    },
+    {
+        "id": 21,
+        "station": "Branch Ave",
+        "latitude": "38.8270",
+        "longitude": "-76.9118",
+        "code": "F11",
+        "color": "GR",
+        "to1": "Greenbelt",
+        "to2": "-"
+    }
+]

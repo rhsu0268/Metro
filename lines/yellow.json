@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "station": "Fort Totten",
+        "latitude": "38.9518",
+        "longitude": "-77.0019",
+        "code": "B06, E06",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "-"
+    },
+    {
+        "id": 2,
+        "station": "Georgia Ave-Petworth",
+        "latitude": "38.9363",
+        "longitude": "-77.0243",
+        "code": "E05",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 3,
+        "station": "Columbia Heights",
+        "latitude": "38.9287",
+        "longitude": "-77.0325",
+        "code": "E04",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 4,
+        "station": "U St",
+        "latitude": "38.9170",
+        "longitude": "-77.0292",
+        "code": "E03",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 5,
+        "station": "Shaw-Howard U",
+        "latitude": "38.9145",
+        "longitude": "-77.0219",
+        "code": "E02",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 6,
+        "station": "Mt Vernon Sq",
+        "latitude": "38.9056",
+        "longitude": "-77.0219",
+        "code": "E01",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 7,
+        "station": "Gallery Place",
+        "latitude": "38.8984",
+        "longitude": "-77.0215",
+        "code": "B01, F01",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 8,
+        "station": "Archives",
+        "latitude": "38.8939",
+        "longitude": "-77.0216",
+        "code": "F02",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 9,
+        "station": "L'Enfant Plaza",
+        "latitude": "38.8849",
+        "longitude": "-77.0216",
+        "code": "F03, D03",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 10,
+        "station": "Pentagon ",
+        "latitude": "38.8695",
+        "longitude": "-77.0538",
+        "code": "C07",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 11,
+        "station": "Pentagon City",
+        "latitude": "38.8627",
+        "longitude": "-77.0595",
+        "code": "C08",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 12,
+        "station": "Crystal City",
+        "latitude": "38.8580",
+        "longitude": "-77.0514",
+        "code": "C09",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 13,
+        "station": "Ronald Reagan Washington National Airport ",
+        "latitude": "38.8530",
+        "longitude": "-77.0435",
+        "code": "C10",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 14,
+        "station": "Braddock Road",
+        "latitude": "38.8304478",
+        "longitude": "-77.3276338",
+        "code": "C12",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 15,
+        "station": "King St-Old Town",
+        "latitude": "38.8065",
+        "longitude": "-77.0608",
+        "code": "C13",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 16,
+        "station": "Eisenhower Ave",
+        "latitude": "38.8004",
+        "longitude": "-77.0714",
+        "code": "C14",
+        "color": "YL",
+        "to1": "Huntington",
+        "to2": "Fort Totten"
+    },
+    {
+        "id": 17,
+        "station": "Huntington ",
+        "latitude": "38.7940",
+        "longitude": "-77.0749",
+        "code": "C15",
+        "color": "YL",
+        "to1": "Fort Totten",
+        "to2": "-"
+    }
+]

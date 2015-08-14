@@ -1,0 +1,46 @@
+<!-- import -->
+<!-- This is a script that imports the stations into the database -->
+
+
+#!/usr/bin/env php
+<?php
+
+    // TODO
+    
+    // require config file 
+    require(__DIR__ . "/includes/config.php");
+    
+    
+    ini_set('auto_detect_line_endings', true);
+    
+    // ensure that there is the right number of command line arguments
+    if ($argc != 2)
+    {
+        exit();
+    }
+    
+    // create a variable to store the filename
+    $filename = $argv[1];
+    
+    // ensure the file exists and is readable
+    if (!file_exists($filename) && !is_readable($filename))
+    {
+        exit();
+    }
+    
+    // open the file 
+    $fp = fopen($filename, "r") or die("The file cannot be opened.");
+    
+    // iterate over the lines over the file 
+    while (($result = fgetcsv($fp, 0, "\t")) !== false)
+    {
+        // insert each line into the database using the function query
+        $data = query("INSERT INTO yellow (station, latitude, longitude, code, color, to1, to2) 
+        VALUES (?, ?, ?, ?, ?, ?, ?)", $result[0], $result[1], $result[2], $result[3], $result[4],
+        $result[5], $result[6]); 
+
+    }
+    // close the file 
+    fclose($fp);
+
+?>

@@ -1,0 +1,32 @@
+/* styles.css */
+/* This is the styles sheet for index.html */
+
+#map-canvas
+{ 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+        
+    margin-left: auto;
+    margin-right: auto;
+}
+        
+h1
+{
+    text-align: center;
+}
+        
+
+#buttons
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+.inner
+{
+    display: inline-block;
+}
+
+

@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "station": "Wiehle-Reston East",
+        "latitude": "38.9471",
+        "longitude": "-77.3377",
+        "code": "N06",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "-"
+    },
+    {
+        "id": 2,
+        "station": "Spring Hill",
+        "latitude": "38.9285",
+        "longitude": "-77.2409",
+        "code": "N04",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 3,
+        "station": "Greensboro",
+        "latitude": "38.9196",
+        "longitude": "-77.2326",
+        "code": "N03",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 4,
+        "station": "Tysons Corner",
+        "latitude": "38.9203",
+        "longitude": "-77.2217",
+        "code": "N02",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 5,
+        "station": "McLean",
+        "latitude": "38.9251",
+        "longitude": "-77.2083",
+        "code": "N01",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 6,
+        "station": "East Falls Church ",
+        "latitude": "38.8860",
+        "longitude": "-77.1566",
+        "code": "K05",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 7,
+        "station": "Ballston-MU",
+        "latitude": "38.8822",
+        "longitude": "-77.1115",
+        "code": "K04",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 8,
+        "station": "Virginia Sq-GMU",
+        "latitude": "38.8831",
+        "longitude": "-77.1038",
+        "code": "K03",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 9,
+        "station": "Clarendon ",
+        "latitude": "38.8871",
+        "longitude": "-77.0952",
+        "code": "K02",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 10,
+        "station": "Court House",
+        "latitude": "38.8913",
+        "longitude": "-77.0848",
+        "code": "K01",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 11,
+        "station": "Rosslyn",
+        "latitude": "38.8955",
+        "longitude": "-77.0720",
+        "code": "C05",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 12,
+        "station": "Foggy Bottom-GWU",
+        "latitude": "38.9007",
+        "longitude": "-77.0500",
+        "code": "C04",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 13,
+        "station": "Farragut West",
+        "latitude": "38.9014",
+        "longitude": "-77.0395",
+        "code": "C03",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 14,
+        "station": "McPherson Sq",
+        "latitude": "38.9013",
+        "longitude": "-77.0320",
+        "code": "C02",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 15,
+        "station": "Metro Center",
+        "latitude": "38.8983",
+        "longitude": "-77.0278",
+        "code": "A01, C01",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 16,
+        "station": "Federal Triangle ",
+        "latitude": "38.8938",
+        "longitude": "-77.0279",
+        "code": "D01",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 17,
+        "station": "Smithsonian",
+        "latitude": "38.8876",
+        "longitude": "-77.0282",
+        "code": "D02",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 18,
+        "station": "L'Enfant Plaza",
+        "latitude": "38.8850",
+        "longitude": "-77.0155",
+        "code": "F03, D03",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 19,
+        "station": "Federal Center SW",
+        "latitude": "38.8850",
+        "longitude": "-77.0155",
+        "code": "D04",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 20,
+        "station": "Capitol South",
+        "latitude": "38.8856",
+        "longitude": "-77.0061",
+        "code": "D05",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 21,
+        "station": "Eastern Market",
+        "latitude": "38.8841",
+        "longitude": "-76.9950",
+        "code": "D06",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 22,
+        "station": "Potomac Ave",
+        "latitude": "38.880844",
+        "longitude": "-76.98545",
+        "code": "D07",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 23,
+        "station": "Stadium-Armory",
+        "latitude": "38.8860",
+        "longitude": "-76.9772",
+        "code": "D08",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 24,
+        "station": "Benning Road",
+        "latitude": "38.8904",
+        "longitude": "-76.9377",
+        "code": "G01",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 25,
+        "station": "Capitol Heights ",
+        "latitude": "38.8896",
+        "longitude": "-76.9133",
+        "code": "G02",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 26,
+        "station": "Addison Road",
+        "latitude": "38.8867",
+        "longitude": "-76.8933",
+        "code": "G03",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 27,
+        "station": "Morgan Blvd",
+        "latitude": "38.8936",
+        "longitude": "-76.8685",
+        "code": "G04",
+        "color": "SV",
+        "to1": "Largo Town Center",
+        "to2": "Wiehle-Reston East"
+    },
+    {
+        "id": 28,
+        "station": "Largo Town Center",
+        "latitude": "38.9003",
+        "longitude": "-76.8445",
+        "code": "G05",
+        "color": "SV",
+        "to1": "Wiehle-Reston East",
+        "to2": "-"
+    }
+]
